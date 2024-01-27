@@ -9,8 +9,12 @@
     ]
   },
   "scripts": {
+    "start": "react-scripts start",
     "contract": "yarn workspace contract",
     "client": "yarn workspace client",
     "test": "yarn workspace contract test"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
